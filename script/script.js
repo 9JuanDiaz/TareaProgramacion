@@ -1,4 +1,4 @@
-console.log('Hello, World este es un cambio!');
+
 
 function crearNuevoElemento(tagName, contenido) {
     const nuevoElemento = document.createElement(tagName);
@@ -9,3 +9,4 @@ function crearNuevoElemento(tagName, contenido) {
   // Ejemplo de uso:
   crearNuevoElemento('p', '¡Hola desde una nueva función!');
   
+  console.log("Hola este mensaje es para ver estatud")
