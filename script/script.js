@@ -1,4 +1,5 @@
 
+
 function crearNuevoElemento(tagName, contenido) {
     const nuevoElemento = document.createElement(tagName);
     nuevoElemento.textContent = contenido;
@@ -8,3 +9,4 @@ function crearNuevoElemento(tagName, contenido) {
   // Ejemplo de uso:
   crearNuevoElemento('p', '¡Hola desde una nueva función!');
   
+  console.log("Hola este mensaje es para ver estatud")
