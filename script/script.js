@@ -1,4 +1,3 @@
-console.log('Hello, World!');
 
 function crearNuevoElemento(tagName, contenido) {
     const nuevoElemento = document.createElement(tagName);
