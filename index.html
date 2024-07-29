@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="Style/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <form>
+  <h1>Formulario de Contacto</h1>
+  <p>Enviar un correo electrónico. Todos los campos con (*) son obligatorios.</p>
+    
+    <label for="nombre">Nombre:*</label>
+    <input type="text" id="nombre" name="nombre" maxlength="20" minlength="3" required>
+
+    <label for="correo">Correo Electrónico:*</label>
+    <input type="email" id="correo" name="correo" required>
+
+    <label for="asunto">Asunto:*</label>
+    <input type="text" id="asunto" name="asunto" maxlength="50" minlength="5" required>
+
+    <label for="mensaje">Mensaje:*</label>
+    <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+
+    <label for="telefono">Teléfono:</label>
+    <input type="tel" id="telefono" name="telefono" maxlength="15">
+
+    <label for="direccion">Dirección:</label>
+    <input type="text" id="direccion" name="direccion" maxlength="100">
+
+    <label for="fecha">Fecha:</label>
+    <input type="date" id="fecha" name="fecha">
+    
+    <label for="aceptar">Acepto los términos y condiciones:</label>
+    <input type="checkbox" id="aceptar" name="aceptar">
+
+
+
+
+
+    <input type="submit" value="Enviar">
+
+</form>
+ 
+  <script src="script.js"></script>
+</body>
+
+  <footer> 
+    <p> Fin del Formulario</p>
+  </footer>
+
+</html>
